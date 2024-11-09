@@ -1,0 +1,679 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 1
+JvmtiExport can_post_on_exceptions 0
+# 707 ciObject found
+instanceKlass org/eclipse/osgi/internal/loader/classpath/ClasspathManager
+ciInstanceKlass java/lang/StringCoding 1 1 25 1 100 1 100 1 1 12 10 1 1 1 1 1 1 100 1 1 12 10 1 1 1 1 1
+instanceKlass java/util/jar/JarEntry
+ciInstanceKlass java/util/zip/ZipEntry 1 1 303 1 7 1 7 1 100 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 1 3 1 5 0 1 5 0 1 1 1 12 10 5 0 12 9 12 9 12 9 12 9 12 9 12 9 12 9 12 9 8 1 7 1 1 12 10 1 7 1 1 12 10 3 1 100 1 8 12 10 12 9 1 1 8 12 9 12 9 12 9 12 9 12 9 1 1 1 1 1 100 1 1 12 10 1 1 12 10 1 100 1 12 10 1 100 1 1 12 9 1 100 1 1 12 10 1 1 1 12 10 1 12 10 1 1 1 12 10 1 12 10 1 12 10 1 12 10 1 12 10 5 0 1 12 10 3 1 100 1 1 12 10 1 100 1 1 12 10 1 1 12 10 1 12 10 1 1 10 1 1 12 10 5 0 5 0 5 0 5 0 5 0 5 0 1 12 10 1 1 1 8 1 1 12 10 1 1 12 10 1 1 8 1 1 1 8 1 1 1 8 1 1 1 1 1 8 1 1 1 1 8 1 1 1 1 1 12 10 1 8 1 1 12 10 1 1 12 10 5 0 1 1 12 10 1 100 1 1 12 10 1 12 10 1 12 10 100 1 1 1 1 1 1 1 8 1 1 12 10 1 12 10 1 12 10 1 1 1 100 12 10 10 1 100 1 12 10 1 1 1
+instanceKlass sun/net/www/protocol/jar/URLJarFile$URLJarFileEntry
+instanceKlass java/util/jar/JarFile$JarFileEntry
+ciInstanceKlass java/util/jar/JarEntry 1 1 49 1 7 1 7 1 1 1 1 1 1 1 1 12 10 1 12 10 1 10 12 9 12 9 12 9 1 1 1 100 1 1 100 1 1 12 10 1 1 100 10 1 1 1 12 10 1 1 1
+ciInstanceKlass java/util/jar/JarFile$JarFileEntry 1 1 114 1 7 1 7 1 7 1 1 1 1 1 1 1 12 9 1 12 10 12 9 1 1 12 10 1 1 1 100 1 1 12 10 1 1 12 10 1 100 1 12 10 1 1 1 1 12 10 1 100 1 12 10 1 1 12 9 1 1 12 9 1 1 12 10 1 100 1 1 12 10 100 1 1 12 10 1 1 1 1 12 9 1 12 10 7 10 1 1 1 12 10 1 1 12 9 1 12 9 1 100 1 1 12 10 12 10 1 1 1 1 1 1 1
+ciInstanceKlass java/util/zip/ZipFile$ZipFileInputStream 1 1 155 1 7 1 7 1 7 1 1 7 1 1 7 1 1 1 1 1 1 1 1 1 1 1 1 12 9 1 12 10 1 7 1 1 12 10 12 9 1 12 10 12 9 1 12 10 12 9 5 0 1 100 1 1 12 10 1 1 12 9 1 1 12 9 1 12 9 1 1 12 10 1 12 10 1 12 10 1 12 10 1 1 1 100 1 1 12 10 1 100 1 8 1 12 10 1 1 12 10 5 0 1 8 1 1 12 10 1 12 10 12 9 1 1 1 12 10 12 10 1 100 1 12 10 1 100 1 12 10 1 12 10 1 1 1 5 0 3 12 9 1 1 12 9 1 7 1 1 12 11 1 1 1 1 1
+instanceKlass java/util/zip/GZIPInputStream
+instanceKlass java/util/zip/ZipInputStream
+instanceKlass java/util/zip/ZipFile$ZipFileInflaterInputStream
+ciInstanceKlass java/util/zip/InflaterInputStream 1 1 154 1 7 1 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 12 9 1 8 1 1 12 10 1 1 12 10 12 9 12 9 12 9 12 9 1 7 1 7 1 100 12 10 1 100 1 8 10 12 9 12 9 1 12 10 10 12 10 1 1 12 10 1 12 10 1 7 1 1 12 10 1 100 1 100 10 1 12 10 1 1 12 10 1 12 10 1 12 10 1 12 10 100 1 1 12 10 1 100 1 100 1 8 10 1 1 1 1 8 5 0 1 100 1 1 12 10 1 1 12 10 1 1 12 9 12 10 10 12 9 1 100 1 8 10 1 1 12 10 1 1 1 1 1 8 1 1 1
+ciInstanceKlass java/util/zip/ZipFile$ZipFileInflaterInputStream 1 1 142 1 7 1 7 1 7 1 7 1 1 1 7 1 1 7 1 1 7 1 7 1 1 1 1 1 1 1 1 1 1 1 1 12 10 1 12 10 12 9 1 12 10 12 9 1 7 1 1 12 10 1 12 10 1 1 12 10 12 9 1 1 1 100 12 9 12 10 1 1 12 9 1 1 12 9 1 7 1 1 12 11 1 100 1 100 1 12 11 1 1 100 1 8 1 12 10 1 1 12 9 1 1 12 9 1 7 1 1 12 10 1 1 12 9 1 1 12 9 1 7 1 1 12 10 1 1 1 1 12 10 1 12 10 5 0 3 1 1 1 1 1
+ciInstanceKlass java/util/zip/Inflater 1 1 236 1 7 1 7 1 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 10 1 7 1 12 9 12 9 1 1 12 10 1 12 10 12 9 12 10 1 1 1 100 10 12 9 12 9 12 9 100 1 100 1 12 10 1 1 100 1 1 12 10 1 7 1 1 12 10 1 1 12 10 1 12 10 12 9 12 10 1 1 12 10 1 12 10 1 7 1 1 12 10 1 1 12 10 1 100 11 1 1 12 10 1 100 1 1 12 10 1 1 12 10 1 1 12 10 1 12 10 1 1 12 10 1 1 12 10 1 12 9 1 1 1 100 1 1 12 10 12 9 1 1 12 10 12 9 12 9 12 9 5 0 1 12 10 1 12 10 1 100 10 1 1 12 10 1 1 12 10 1 1 12 10 1 1 12 10 1 1 12 10 1 1 12 10 1 1 12 10 12 9 1 100 1 1 12 10 1 100 10 1 100 1 8 1 12 10 1 1 1 7 1 12 10 1 12 10 12 10 1 1 1 1 1
+staticfield java/util/zip/Inflater $assertionsDisabled Z 1
+ciInstanceKlass java/util/zip/Inflater$InflaterZStreamRef 1 1 51 1 7 1 7 1 100 1 7 1 7 1 7 1 1 1 1 1 1 1 1 1 12 10 1 7 1 1 12 10 1 1 12 10 12 9 12 9 1 1 12 11 1 1 1 12 10 1 1 1 1
+ciInstanceKlass java/util/zip/ZipFile$InflaterCleanupAction 1 1 34 1 7 1 7 1 100 1 100 1 1 7 1 1 1 1 1 1 1 1 12 10 12 9 12 9 1 1 1 12 10 1 1 1
+ciInstanceKlass java/lang/ThreadLocal$ThreadLocalMap$Entry 1 1 26 1 7 1 1 7 1 100 1 100 1 1 1 1 1 1 1 1 12 10 12 9 1 1 1 1
+ciInstanceKlass java/util/IdentityHashMap 1 1 336 1 7 1 1 7 1 100 1 100 1 100 1 100 1 100 1 100 1 100 1 100 1 7 1 7 1 100 1 100 1 100 1 100 1 100 1 100 1 1 1 1 1 100 1 100 1 1 1 1 1 1 1 1 1 1 1 3 1 3 1 3 1 1 1 1 1 1 1 1 1 1 1 5 0 1 1 12 9 1 7 1 1 1 12 10 1 1 12 10 1 100 1 100 10 1 8 1 1 12 10 1 12 10 1 1 12 10 1 12 10 1 1 12 10 3 1 7 1 12 10 12 9 1 1 1 12 11 6 0 12 10 1 12 10 12 9 1 1 1 1 1 7 1 1 12 10 1 1 1 1 12 10 12 10 100 12 10 1 1 1 1 1 1 1 1 1 1 12 10 12 9 3 3 1 100 1 8 10 1 12 11 1 100 1 1 12 11 1 100 1 12 11 1 1 12 11 1 12 11 1 12 11 12 10 1 1 12 10 1 1 1 10 12 10 10 12 11 1 12 10 1 1 100 12 10 12 9 10 1 100 1 12 10 1 1 12 9 1 12 10 1 1 1 1 12 9 10 1 100 1 10 1 1 1 100 1 100 1 12 10 1 12 10 1 12 10 1 1 1 100 1 1 12 10 1 12 10 1 100 1 8 10 1 100 1 1 12 10 1 100 1 1 12 11 12 10 1 1 12 10 1 10 1 1 1 1 100 1 12 10 1 100 1 12 11 1 100 10 1 1 1 1 100 1 12 11 1 10 1 1 1 1 1 1 1
+staticfield java/util/IdentityHashMap NULL_KEY Ljava/lang/Object; java/lang/Object
+ciInstanceKlass java/util/zip/ZipUtils 1 1 291 1 7 1 100 1 1 5 0 1 5 0 1 1 1 5 0 1 1 3 1 3 1 5 0 1 3 1 1 1 1 1 1 12 10 1 1 5 0 1 100 1 1 12 9 1 100 1 1 12 10 1 1 1 1 12 10 1 1 12 9 1 1 1 1 100 5 0 5 0 5 0 5 0 5 0 5 0 1 100 1 1 12 10 1 12 9 1 100 1 1 12 10 1 1 12 10 1 100 1 1 12 10 1 1 12 10 1 1 12 10 1 1 12 10 1 100 1 12 10 1 1 12 10 1 12 10 1 1 1 1 12 10 1 12 10 1 12 10 1 12 10 1 12 10 1 12 10 5 0 1 1 1 12 10 12 10 5 0 5 0 1 100 1 1 12 10 1 1 12 10 1 1 1 1 12 10 1 12 10 1 1 1 1 12 10 1 12 10 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 10 1 1 1 1 1 1 1 12 10 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 8 1 7 1 12 10 1 1 12 9 12 9 1 7 1 1 12 10 1 7 1 1 12 9 1 1 12 10 1 1 7 1 1 12 10 12 9 1 1 12 10 1 8 1 1 12 10 1 8 1 1 1
+staticfield java/util/zip/ZipUtils defaultBuf Ljava/nio/ByteBuffer; java/nio/HeapByteBuffer
+staticfield java/util/zip/ZipUtils unsafe Ljdk/internal/misc/Unsafe; jdk/internal/misc/Unsafe
+staticfield java/util/zip/ZipUtils byteBufferArrayOffset J 48
+staticfield java/util/zip/ZipUtils byteBufferOffsetOffset J 40
+ciInstanceKlass java/util/Collections$UnmodifiableCollection$1 1 1 60 1 7 1 1 7 1 7 1 100 1 7 1 1 12 1 1 1 1 1 1 1 1 12 9 1 12 10 1 1 12 9 1 7 11 12 9 1 1 12 11 1 1 1 12 11 1 1 100 10 1 1 1 12 11 1 1 1 1 1
+instanceKlass java/util/jar/JarFile
+ciInstanceKlass java/util/zip/ZipFile 1 1 529 1 7 1 7 1 100 1 100 1 7 1 100 1 100 1 7 1 7 1 100 1 7 1 7 1 100 1 7 1 1 1 1 1 1 1 1 1 1 100 1 100 1 1 1 1 1 1 1 1 1 1 3 1 3 1 3 1 3 1 1 1 1 1 1 1 100 1 7 12 10 1 12 10 1 7 1 1 12 9 1 12 10 1 1 100 1 12 10 1 100 1 100 1 100 10 1 8 1 1 12 10 1 100 1 1 12 10 1 1 12 10 10 1 12 10 1 7 1 1 12 10 1 100 1 12 10 1 12 10 1 7 1 8 1 7 1 1 12 10 12 9 1 1 12 10 1 7 1 1 12 10 1 12 10 12 9 1 7 1 1 12 10 1 1 12 10 1 12 10 1 12 10 1 1 1 1 12 10 1 1 12 9 1 1 12 9 1 1 12 9 1 12 10 1 100 1 1 8 1 1 12 10 1 1 12 10 1 7 1 1 1 8 1 1 12 9 12 9 9 1 1 12 10 12 9 1 7 1 12 9 1 12 10 1 7 1 1 12 10 1 1 12 11 1 1 12 10 5 0 5 0 5 0 5 0 1 12 10 1 100 1 8 10 1 1 1 1 1 12 9 1 12 10 1 1 1 1 1 1 16 1 1 12 10 15 16 1 100 1 1 12 10 15 1 1 12 18 1 12 10 1 100 1 12 10 1 1 12 10 1 1 12 10 1 12 10 1 1 12 10 15 16 18 1 1 1 1 12 10 15 16 18 1 12 10 1 12 10 1 1 12 10 1 1 12 10 1 8 1 1 12 10 1 12 10 100 1 7 1 1 12 9 1 7 1 1 12 11 10 1 12 10 1 12 9 1 12 10 1 1 12 9 1 12 10 1 12 9 1 12 9 1 12 10 1 12 9 1 12 9 1 12 10 1 12 10 3 1 12 9 1 7 1 1 12 10 1 1 12 10 12 9 1 1 1 100 12 9 1 12 10 1 1 12 10 1 100 1 8 10 1 8 1 1 8 1 1 1 1 1 12 9 1 12 9 1 7 10 1 7 11 100 1 12 11 1 1 12 9 1 1 1 1 1 12 9 1 1 8 1 7 1 1 12 10 1 8 1 12 10 1 100 1 12 10 12 9 10 1 7 1 1 12 10 1 8 1 7 1 12 10 1 8 1 1 12 10 12 9 1 1 1 1 1 1 1 1 1
+staticfield java/util/zip/ZipFile DISABLE_ZIP64_EXTRA_VALIDATION Z 0
+instanceKlass sun/net/www/protocol/jar/URLJarFile
+ciInstanceKlass java/util/jar/JarFile 1 1 695 1 7 1 7 1 7 1 100 1 100 1 7 1 7 1 1 1 7 1 7 1 1 100 1 7 1 1 100 1 100 1 1 100 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 8 1 1 8 1 1 8 1 1 1 1 1 1 1 1 1 12 9 1 12 9 1 1 1 100 1 7 12 10 1 12 10 1 1 1 1 12 10 1 12 10 12 9 1 7 1 1 12 10 12 9 1 1 12 10 12 9 12 9 1 7 1 1 12 10 1 1 12 10 12 9 1 1 12 10 12 9 12 9 1 1 12 10 1 1 1 12 10 1 100 12 9 1 7 1 1 12 10 1 1 12 10 1 1 12 10 12 9 12 9 1 7 1 1 12 11 1 7 1 1 12 10 1 12 10 12 9 100 1 1 12 9 1 8 1 100 1 12 10 1 7 1 12 10 10 1 12 10 1 1 12 10 1 12 10 1 7 1 12 10 1 1 12 10 1 12 10 1 1 1 1 12 10 1 1 12 10 10 1 1 1 1 12 11 1 1 1 1 12 11 1 1 12 11 16 1 1 12 10 15 16 1 100 1 1 12 10 15 1 1 12 18 1 100 1 1 12 11 1 16 1 12 10 15 1 16 1 1 12 18 1 1 12 11 1 12 11 12 10 15 16 18 1 16 18 12 10 1 1 12 10 1 100 1 7 1 12 10 1 12 10 1 1 12 10 1 1 12 10 1 12 10 1 1 12 11 1 100 1 100 12 10 1 1 12 10 1 12 10 1 8 12 10 1 1 12 10 1 1 12 10 1 1 1 12 11 12 10 1 1 100 1 1 12 11 1 7 1 1 12 11 1 7 1 7 1 12 11 1 12 11 1 100 1 8 10 1 12 9 1 12 10 1 12 10 1 12 9 1 1 12 10 1 1 12 10 1 100 1 8 1 12 10 1 12 10 1 8 1 12 10 1 8 1 7 1 1 12 10 1 7 1 12 9 1 8 1 12 10 1 8 10 1 8 1 8 10 3 1 1 12 10 1 1 12 10 1 100 1 8 1 8 10 12 10 12 10 1 1 12 10 1 12 10 1 1 12 10 12 9 12 9 1 1 1 7 1 12 10 12 9 1 100 12 9 12 9 12 9 12 10 12 9 12 9 12 9 10 1 12 10 1 1 12 10 1 1 12 9 1 1 12 10 1 7 1 12 10 1 1 100 12 10 12 9 1 1 12 9 1 7 1 12 10 1 12 9 10 1 12 10 1 1 1 1 1 12 10 1 12 10 1 100 1 100 1 1 12 10 1 12 10 1 100 1 12 10 1 1 12 10 1 12 10 1 1 1 12 10 1 100 1 12 11 1 1 12 10 1 12 10 10 1 1 1 12 9 1 12 10 12 10 1 100 1 1 12 10 1 1 1 12 10 1 100 10 1 10 1 7 10 1 7 1 1 12 10 1 1 12 10 1 8 1 7 1 12 10 12 10 1 12 10 1 8 1 8 1 12 10 1 12 10 1 8 1 12 10 1 8 1 1 1 1 1 1 1 1
+staticfield java/util/jar/JarFile BASE_VERSION Ljava/lang/Runtime$Version; java/lang/Runtime$Version
+staticfield java/util/jar/JarFile BASE_VERSION_FEATURE I 8
+staticfield java/util/jar/JarFile RUNTIME_VERSION Ljava/lang/Runtime$Version; java/lang/Runtime$Version
+staticfield java/util/jar/JarFile MULTI_RELEASE_ENABLED Z 1
+staticfield java/util/jar/JarFile MULTI_RELEASE_FORCED Z 0
+staticfield java/util/jar/JarFile isInitializing Ljava/lang/ThreadLocal; java/lang/ThreadLocal
+staticfield java/util/jar/JarFile JUZFA Ljdk/internal/access/JavaUtilZipFileAccess; java/util/zip/ZipFile$1
+staticfield java/util/jar/JarFile CLASSPATH_CHARS [B 12
+staticfield java/util/jar/JarFile CLASSPATH_LASTOCC [B 65
+staticfield java/util/jar/JarFile CLASSPATH_OPTOSFT [B 12
+staticfield java/util/jar/JarFile MULTIRELEASE_CHARS [B 19
+staticfield java/util/jar/JarFile MULTIRELEASE_LASTOCC [B 65
+staticfield java/util/jar/JarFile MULTIRELEASE_OPTOSFT [B 19
+ciInstanceKlass jdk/internal/access/JavaUtilJarAccess 1 0 34 1 100 1 100 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ciInstanceKlass java/util/jar/JavaUtilJarAccessImpl 1 1 76 1 100 1 7 1 100 1 1 12 10 1 1 1 100 1 7 1 1 12 10 1 1 1 12 10 1 1 1 12 10 1 1 1 1 12 10 1 1 1 1 12 10 1 1 1 12 10 1 1 1 1 12 10 1 1 1 7 1 12 10 1 1 12 10 1 12 10 1 1 1 12 10 1 1 1
+ciInstanceKlass java/util/zip/ZipFile$CleanableResource 1 1 143 1 7 1 7 1 100 1 100 1 7 1 7 1 1 1 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 12 10 1 7 1 1 12 10 1 1 12 10 12 9 1 7 10 1 7 1 1 12 10 12 9 1 7 10 12 9 1 100 1 100 1 1 12 10 12 9 1 12 11 1 1 1 7 1 1 12 11 1 7 1 100 1 12 10 1 1 1 12 10 1 1 12 11 1 12 10 1 1 7 1 1 12 11 1 100 1 1 12 11 1 100 1 12 11 1 12 10 1 1 12 10 1 1 12 10 1 100 1 12 10 1 1 1 1 1 1
+instanceKlass java/util/zip/ZipCoder$UTF8ZipCoder
+ciInstanceKlass java/util/zip/ZipCoder 1 1 205 1 7 1 7 1 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 1 1 12 9 12 9 1 1 12 10 1 1 1 100 1 1 12 10 1 100 1 1 12 10 1 100 1 1 12 10 1 100 1 12 10 1 100 1 12 10 1 12 10 1 1 1 1 1 12 10 1 12 10 1 100 1 1 12 10 1 1 12 10 1 12 10 1 1 12 10 1 12 10 1 1 12 10 1 12 10 1 7 1 10 1 1 1 1 100 10 1 12 10 100 1 100 1 1 1 12 10 1 12 10 1 1 12 10 1 1 12 10 1 100 1 1 12 10 1 12 10 12 9 12 9 1 100 1 12 10 1 100 1 1 12 9 1 1 12 10 1 12 10 12 9 1 12 10 1 12 10 12 10 12 9 1 8 1 12 10 1 8 1 1 12 10 1 1 7 1 1 12 10 12 9 10 1 1 1 1 1
+staticfield java/util/zip/ZipCoder JLA Ljdk/internal/access/JavaLangAccess; java/lang/System$2
+staticfield java/util/zip/ZipCoder UTF8 Ljava/util/zip/ZipCoder$UTF8ZipCoder; java/util/zip/ZipCoder$UTF8ZipCoder
+ciInstanceKlass java/util/zip/ZipCoder$UTF8ZipCoder 1 1 43 1 100 1 7 1 1 1 12 10 1 1 1 1 1 1 12 9 1 7 1 12 11 1 1 1 12 11 1 1 1 100 1 1 12 10 1 1 1 1 1 1 1
+ciInstanceKlass java/util/zip/ZipFile$Source 1 1 592 1 7 1 7 1 7 1 1 7 1 1 7 1 1 100 1 7 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 3 1 1 1 1 100 1 100 12 9 1 7 1 1 12 10 5 0 1 8 1 1 12 10 100 1 1 12 10 1 12 10 1 8 1 100 1 1 12 10 1 8 1 1 12 10 1 12 10 1 8 1 1 12 10 1 12 10 1 8 1 12 10 1 12 9 1 8 1 1 12 10 1 1 12 10 1 1 12 10 3 12 9 12 9 12 9 1 8 3 1 8 1 8 1 12 10 1 8 1 7 1 1 12 10 1 7 1 1 12 10 1 12 10 1 12 10 1 1 12 10 5 0 1 8 1 1 12 10 1 12 10 1 8 1 8 1 1 1 1 1 1 1 100 1 100 12 9 1 7 1 12 10 1 7 1 12 10 1 7 1 7 1 7 1 1 12 10 1 12 10 1 12 10 12 9 1 7 1 12 10 12 9 1 100 1 12 10 1 1 12 10 1 12 10 1 1 12 10 1 1 12 9 1 12 10 10 12 9 12 9 12 9 1 12 9 1 7 1 1 12 10 1 1 12 9 1 8 1 100 1 1 12 11 12 9 1 7 1 12 10 1 1 12 10 1 1 12 10 1 1 12 10 1 1 12 10 5 0 12 9 10 12 9 12 9 12 9 1 1 12 10 1 7 1 12 10 1 1 12 10 1 1 12 10 1 1 1 1 12 10 1 8 10 5 0 1 7 1 1 12 10 1 8 1 1 12 10 1 1 12 10 1 12 9 1 12 10 1 12 9 1 12 10 1 12 9 1 12 9 1 12 10 5 0 1 12 10 12 9 1 8 5 0 5 0 1 12 10 5 0 1 12 10 1 12 10 1 12 10 12 10 12 10 12 9 12 9 1 8 1 8 1 8 1 12 10 100 1 7 1 7 1 12 10 12 10 1 1 12 10 1 1 12 10 1 12 10 12 10 1 12 10 1 12 10 1 7 10 11 1 1 12 10 1 1 12 10 1 12 10 1 12 10 11 1 1 12 11 1 7 1 12 11 1 1 12 11 1 12 10 1 1 100 1 1 12 10 12 10 12 10 1 12 10 12 10 1 12 10 1 1 12 10 1 1 12 10 12 10 12 10 1 12 10 1 1 12 9 12 9 1 100 1 1 12 9 1 12 10 1 100 1 1 12 9 1 1 12 10 1 100 1 12 10 1 100 10 1 1 7 1 12 10 1 1 12 10 12 9 10 1 7 1 1 12 10 1 1 1 1 1 1 1 1
+staticfield java/util/zip/ZipFile$Source JUJA Ljdk/internal/access/JavaUtilJarAccess; java/util/jar/JavaUtilJarAccessImpl
+staticfield java/util/zip/ZipFile$Source EMPTY_META_VERSIONS [I 0
+staticfield java/util/zip/ZipFile$Source files Ljava/util/HashMap; java/util/HashMap
+staticfield java/util/zip/ZipFile$Source builtInFS Ljava/nio/file/FileSystem; sun/nio/fs/WindowsFileSystem
+staticfield java/util/zip/ZipFile$Source $assertionsDisabled Z 1
+ciInstanceKlass java/util/Arrays$ArrayList 1 1 119 1 7 1 1 7 1 100 1 100 1 7 1 1 7 1 1 1 5 0 1 1 1 1 1 1 1 12 10 1 7 1 1 12 10 7 12 9 1 1 1 1 1 1 12 10 1 1 12 10 1 7 1 1 12 10 1 7 1 1 12 10 1 1 1 1 1 1 1 1 1 1 12 10 1 12 10 1 1 1 1 100 1 12 10 1 1 1 1 100 1 1 12 11 1 1 1 1 100 1 12 11 1 1 1 1 12 10 1 1 1 12 10 1 1 1 1 1 1
+ciInstanceKlass java/util/HashMap$KeyIterator 1 1 38 1 7 1 1 7 1 100 1 100 1 1 1 7 1 1 1 1 1 12 9 12 10 1 1 1 1 1 12 10 1 1 12 9 1 1 1 1
+ciInstanceKlass java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 1 1 40 1 7 1 1 7 1 100 1 100 1 1 1 1 1 1 1 12 10 1 7 1 1 12 10 12 9 1 1 1 1 12 10 12 10 1 1 1 1 1
+ciInstanceKlass java/util/function/Function 1 1 62 1 100 1 1 100 1 1 100 1 100 1 1 1 1 1 1 1 1 100 1 12 10 16 1 1 12 11 15 1 100 1 1 12 10 15 1 12 18 1 1 1 12 11 15 18 1 1 1 1 12 11 15 12 18 12 11 1 1 1 1 1
+instanceKlass java/util/ArrayList$ListItr
+ciInstanceKlass java/util/ArrayList$Itr 1 1 88 1 7 1 1 7 1 100 1 7 1 1 1 1 1 1 1 1 1 12 9 1 12 10 12 9 1 12 9 12 9 1 1 12 9 1 12 9 1 1 1 1 12 10 1 100 10 1 1 12 9 1 100 10 100 1 1 100 1 100 10 1 12 10 1 1 1 1 100 1 1 12 10 1 1 12 10 1 100 1 1 12 11 1 1 1 1 1
+ciInstanceKlass jdk/internal/ref/CleanerFactory 1 1 28 1 7 1 100 1 7 1 1 1 1 12 10 1 1 12 9 1 10 1 7 1 1 12 10 1 1 1
+staticfield jdk/internal/ref/CleanerFactory commonCleaner Ljava/lang/ref/Cleaner; java/lang/ref/Cleaner
+ciInstanceKlass java/lang/ref/Cleaner 1 1 58 1 7 1 7 1 100 1 7 1 7 1 7 1 1 1 1 1 1 12 10 10 12 9 1 1 10 1 1 12 10 1 1 8 1 7 1 1 12 10 1 1 1 8 1 8 1 12 10 1 10 1 1 12 10 1 1 1
+ciInstanceKlass java/lang/ref/Cleaner$1 1 1 28 1 7 1 1 7 1 100 1 7 1 1 12 10 1 1 1 1 12 9 1 12 10 1 1 1 1 1
+ciInstanceKlass jdk/internal/ref/CleanerImpl 1 1 126 1 7 1 7 1 100 1 7 1 100 1 7 1 1 1 1 7 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 12 9 1 100 8 1 1 12 10 1 1 1 7 1 1 12 11 1 12 10 1 7 10 12 9 10 12 9 1 1 12 10 1 100 1 8 1 12 10 1 12 10 1 1 12 10 1 7 1 1 12 11 1 7 1 1 12 10 12 10 1 1 100 1 1 12 10 1 7 1 7 1 1 12 10 1 12 10 5 0 1 1 12 10 1 12 11 1 1 1 1 1 1
+ciInstanceKlass java/lang/ref/Cleaner$Cleanable 1 0 12 1 100 1 100 1 100 1 1 1 1 1
+instanceKlass java/io/FileCleanable
+instanceKlass jdk/internal/ref/CleanerImpl$CleanerCleanable
+instanceKlass jdk/internal/ref/CleanerImpl$PhantomCleanableRef
+ciInstanceKlass jdk/internal/ref/PhantomCleanable 1 1 86 1 7 1 1 7 1 100 1 100 1 1 1 1 1 1 1 1 1 1 7 1 1 12 10 1 7 1 1 12 10 1 1 12 9 1 12 10 12 9 12 9 1 12 9 12 9 1 1 12 10 1 7 1 1 12 10 1 100 1 100 1 1 1 1 12 10 1 12 10 1 12 10 1 1 100 8 1 12 10 1 8 1 1 1 1
+ciInstanceKlass jdk/internal/ref/CleanerImpl$PhantomCleanableRef 1 1 41 1 7 1 1 7 1 100 1 1 1 1 1 1 12 10 12 9 1 12 10 1 1 7 1 12 11 1 1 1 100 8 1 12 10 1 8 1 1 1 1
+instanceKlass java/util/Collections$UnmodifiableList
+instanceKlass java/util/Collections$UnmodifiableSet
+ciInstanceKlass java/util/Collections$UnmodifiableCollection 1 1 110 1 7 1 1 7 1 7 1 100 1 100 1 1 7 1 1 5 0 1 1 1 1 1 1 1 12 10 1 100 10 12 9 1 1 12 11 1 1 12 11 1 1 12 11 1 1 12 11 1 1 12 11 1 1 12 11 1 1 12 10 1 1 1 1 12 10 1 1 1 100 10 1 1 1 1 12 11 1 1 1 1 1 1 1 1 12 11 1 1 1 1 1 1 12 11 1 1 1 12 11 1 12 11 1 1 1 1 1 1
+instanceKlass lombok/launch/PatchFixesHider$Transform
+instanceKlass org/eclipse/jdt/internal/compiler/flow/FlowContext
+instanceKlass org/eclipse/jdt/internal/compiler/util/Messages
+instanceKlass org/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration$1
+instanceKlass org/eclipse/jdt/internal/compiler/lookup/Scope$Substitutor
+instanceKlass org/eclipse/jdt/internal/compiler/CompilationResult$1
+instanceKlass org/eclipse/jdt/internal/compiler/env/ISourceModule
+instanceKlass org/eclipse/jdt/core/IInitializer
+instanceKlass org/eclipse/jdt/core/IMemberValuePair
+instanceKlass org/eclipse/jdt/internal/compiler/env/ISourceMethod
+instanceKlass org/eclipse/jdt/internal/compiler/env/ISourceField
+instanceKlass org/eclipse/core/internal/content/TextContentDescriber
+instanceKlass org/eclipse/core/runtime/content/ITextContentDescriber
+instanceKlass org/eclipse/core/runtime/content/IContentDescriber
+instanceKlass org/eclipse/core/internal/content/ContentTypeCatalog$1
+instanceKlass org/eclipse/core/internal/content/ContentTypeVisitor
+instanceKlass org/eclipse/core/internal/resources/ProjectContentTypes$ProjectContentTypeSelectionPolicy
+instanceKlass org/eclipse/jdt/internal/core/Buffer
+instanceKlass org/eclipse/jdt/internal/core/BufferManager$1
+instanceKlass org/eclipse/jdt/ls/core/internal/contentassist/CompletionProposalUtils
+instanceKlass org/eclipse/core/resources/IResourceStatus
+instanceKlass org/eclipse/debug/internal/core/IInternalDebugCoreConstants
+instanceKlass org/eclipse/debug/internal/core/Preferences
+instanceKlass org/eclipse/debug/core/commands/IDebugCommandRequest
+instanceKlass org/eclipse/debug/core/IRequest
+instanceKlass org/eclipse/debug/internal/core/StepFilterManager
+instanceKlass org/eclipse/debug/core/ILaunchListener
+instanceKlass org/eclipse/jdt/internal/core/JavaElementDelta$Key
+instanceKlass org/eclipse/jdt/internal/compiler/flow/FlowInfo
+instanceKlass org/eclipse/jdt/internal/compiler/SourceElementNotifier
+instanceKlass lombok/patcher/scripts/WrapMethodCallScript$1
+instanceKlass org/eclipse/jdt/internal/compiler/util/HashtableOfObjectToInt
+instanceKlass org/eclipse/jdt/internal/compiler/ast/IJavadocTypeReference
+instanceKlass org/eclipse/jdt/internal/compiler/DefaultErrorHandlingPolicies$1
+instanceKlass org/eclipse/jdt/internal/compiler/IErrorHandlingPolicy
+instanceKlass org/eclipse/jdt/internal/compiler/DefaultErrorHandlingPolicies
+instanceKlass org/eclipse/jdt/internal/compiler/util/HashtableOfInt
+instanceKlass org/eclipse/jdt/core/compiler/CategorizedProblem
+instanceKlass org/eclipse/jdt/internal/compiler/problem/DefaultProblemFactory
+instanceKlass lombok/permit/Permit$Fake
+instanceKlass lombok/permit/Permit
+instanceKlass lombok/launch/PatchFixesHider$Util
+instanceKlass lombok/launch/PatchFixesHider$ModuleClassLoading
+instanceKlass org/eclipse/jdt/internal/compiler/parser/AbstractCommentParser
+instanceKlass org/eclipse/jdt/internal/compiler/parser/JavadocTagConstants
+instanceKlass org/eclipse/jdt/internal/compiler/parser/RecoveredElement
+instanceKlass org/eclipse/jdt/internal/compiler/ast/IGenerateTypeCheck
+instanceKlass org/eclipse/jdt/internal/core/DeltaProcessor$OutputsInfo
+instanceKlass org/eclipse/jdt/internal/core/SimpleDelta
+instanceKlass org/eclipse/core/internal/resources/ProjectNatureDescriptor
+instanceKlass org/eclipse/core/internal/localstore/UnifiedTreeNode
+instanceKlass org/eclipse/core/internal/localstore/UnifiedTree
+instanceKlass org/eclipse/lsp4j/TextDocumentItem
+instanceKlass sun/reflect/misc/ReflectUtil
+instanceKlass org/eclipse/jdt/internal/core/util/LRUCache$LRUCacheEntry
+instanceKlass org/eclipse/jdt/internal/core/util/ILRUCacheable
+instanceKlass org/eclipse/jdt/internal/core/JavaProject$ModuleLookup
+instanceKlass org/eclipse/jdt/internal/compiler/codegen/ConstantPool
+instanceKlass org/eclipse/jdt/internal/compiler/classfmt/ClassFileConstants
+instanceKlass java/lang/invoke/MethodHandleImpl$CountingWrapper$1
+instanceKlass org/eclipse/jdt/internal/compiler/env/IBinaryElementValuePair
+instanceKlass org/eclipse/jdt/core/IJarEntryResource
+instanceKlass org/eclipse/jdt/internal/compiler/classfmt/ModuleInfo$ServiceInfo
+instanceKlass org/eclipse/jdt/internal/compiler/classfmt/ModuleInfo$PackageExportInfo
+instanceKlass org/eclipse/jdt/internal/compiler/classfmt/ModuleInfo$ModuleReferenceInfo
+instanceKlass org/eclipse/jdt/internal/compiler/env/IModule$IPackageExport
+instanceKlass org/eclipse/jdt/internal/compiler/env/IModule$IService
+instanceKlass org/eclipse/jdt/internal/compiler/env/IModule$IModuleReference
+instanceKlass org/eclipse/jdt/internal/compiler/codegen/AttributeNamesConstants
+instanceKlass org/eclipse/jdt/internal/compiler/env/IBinaryNestedType
+instanceKlass org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation
+instanceKlass org/eclipse/jdt/internal/compiler/env/IRecordComponent
+instanceKlass org/eclipse/jdt/internal/compiler/env/IBinaryMethod
+instanceKlass org/eclipse/jdt/internal/compiler/env/IGenericMethod
+instanceKlass org/eclipse/jdt/internal/compiler/env/IBinaryField
+instanceKlass org/eclipse/jdt/internal/compiler/env/IGenericField
+instanceKlass org/eclipse/jdt/internal/compiler/env/IBinaryTypeAnnotation
+instanceKlass org/eclipse/jdt/internal/compiler/env/IBinaryModule
+instanceKlass org/eclipse/jdt/internal/compiler/classfmt/ClassFileStruct
+instanceKlass jdk/internal/jrtfs/JrtFileSystem$1
+instanceKlass org/eclipse/jdt/internal/compiler/util/SoftClassCache$ClassBytes
+instanceKlass org/eclipse/jdt/internal/compiler/util/SoftClassCache$JdkClasses
+instanceKlass org/eclipse/jdt/internal/core/nd/java/model/BinaryModuleDescriptor
+instanceKlass org/eclipse/jdt/internal/core/util/MementoTokenizer
+instanceKlass org/eclipse/jdt/internal/core/nd/java/model/BinaryTypeFactory
+instanceKlass org/eclipse/jdt/internal/core/nd/java/model/BinaryModuleFactory
+instanceKlass org/eclipse/jdt/core/IField
+instanceKlass org/eclipse/jdt/core/ILocalVariable
+instanceKlass org/eclipse/jdt/core/IMethod
+instanceKlass java/util/AbstractList$SubList$1
+instanceKlass org/eclipse/jdt/internal/core/util/WeakHashSetOfCharArray
+instanceKlass org/eclipse/jdt/internal/core/util/WeakHashSet
+instanceKlass org/eclipse/jdt/internal/core/util/DeduplicationUtil
+instanceKlass org/eclipse/jdt/internal/core/JrtPackageFragmentRoot$1
+instanceKlass java/lang/invoke/DirectMethodHandle$1
+instanceKlass java/lang/runtime/ObjectMethods$1
+instanceKlass java/lang/invoke/MethodHandleImpl$Makers$2
+instanceKlass java/lang/invoke/MethodHandleImpl$Makers$1
+instanceKlass java/lang/invoke/MethodHandleImpl$Makers
+instanceKlass java/lang/runtime/ObjectMethods
+instanceKlass org/eclipse/jdt/internal/compiler/util/ObjectVector$1
+instanceKlass java/nio/file/Files$3
+instanceKlass java/nio/file/FileTreeWalker$Event
+instanceKlass java/nio/file/FileTreeWalker$DirectoryNode
+instanceKlass jdk/internal/jrtfs/JrtFileAttributes
+instanceKlass jdk/internal/jimage/ImageBufferCache$2
+instanceKlass jdk/internal/jimage/ImageBufferCache
+instanceKlass jdk/internal/jimage/ImageReader$SharedImageReader$LocationVisitor
+instanceKlass jdk/internal/jimage/ImageLocation
+instanceKlass java/util/RegularEnumSet$EnumSetIterator
+instanceKlass java/nio/file/FileTreeWalker
+instanceKlass java/nio/file/SimpleFileVisitor
+instanceKlass jdk/internal/jrtfs/JrtDirectoryStream$1
+instanceKlass jdk/internal/jimage/ImageReader$Node
+instanceKlass jdk/internal/jrtfs/JrtPath
+instanceKlass jdk/internal/jrtfs/JrtDirectoryStream
+instanceKlass jdk/internal/jimage/decompressor/Decompressor
+instanceKlass jdk/internal/jimage/ImageStringsReader
+instanceKlass jdk/internal/jimage/ImageHeader
+instanceKlass jdk/internal/access/foreign/MemorySegmentProxy
+instanceKlass sun/nio/ch/Util$4
+instanceKlass sun/nio/ch/FileChannelImpl$Unmapper
+instanceKlass jdk/internal/access/foreign/UnmapperProxy
+instanceKlass jdk/internal/misc/ExtendedMapMode
+instanceKlass java/nio/channels/spi/AbstractInterruptibleChannel$1
+instanceKlass sun/nio/ch/Interruptible
+instanceKlass java/nio/channels/FileChannel$MapMode
+instanceKlass jdk/internal/jimage/BasicImageReader$2
+instanceKlass jdk/internal/jimage/BasicImageReader$1
+instanceKlass jdk/internal/jimage/ImageReader$Node
+instanceKlass jdk/internal/jimage/ImageStrings
+instanceKlass jdk/internal/jimage/BasicImageReader
+instanceKlass jdk/internal/jimage/ImageReader
+instanceKlass jdk/internal/jrtfs/SystemImage$2
+instanceKlass jdk/internal/jrtfs/SystemImage
+instanceKlass jdk/internal/jrtfs/JrtPath
+instanceKlass jdk/internal/jrtfs/JrtFileSystemProvider$1
+instanceKlass java/nio/file/spi/FileSystemProvider$1
+instanceKlass org/eclipse/jdt/internal/compiler/util/JrtFileSystem
+instanceKlass org/eclipse/jdt/internal/compiler/util/Jdk
+instanceKlass org/eclipse/jdt/internal/compiler/util/SoftClassCache
+instanceKlass org/eclipse/jdt/internal/compiler/util/JRTUtil
+instanceKlass org/eclipse/jdt/internal/core/JavaProject$1
+instanceKlass org/eclipse/jdt/internal/compiler/util/ObjectVector
+instanceKlass org/eclipse/jdt/core/IImportDeclaration
+instanceKlass org/eclipse/jdt/core/ICompletionRequestor
+instanceKlass org/eclipse/jdt/core/IImportContainer
+instanceKlass org/eclipse/jdt/core/IPackageDeclaration
+instanceKlass org/eclipse/jdt/core/IModularClassFile
+instanceKlass org/eclipse/core/internal/resources/OS
+instanceKlass org/eclipse/jdt/internal/compiler/util/CharDeduplication
+instanceKlass org/eclipse/jdt/internal/compiler/parser/Scanner
+instanceKlass org/eclipse/jdt/core/JavaConventions
+instanceKlass org/eclipse/jdt/internal/core/JavaProject$3
+instanceKlass org/eclipse/jdt/internal/core/JavaProject$2
+instanceKlass org/eclipse/core/runtime/URIUtil
+instanceKlass org/eclipse/jdt/ls/core/internal/JDTUtils
+instanceKlass org/eclipse/jdt/ls/core/internal/JobHelpers
+instanceKlass java/util/concurrent/ForkJoinPool$DefaultCommonPoolForkJoinWorkerThreadFactory$1
+instanceKlass org/eclipse/lsp4j/jsonrpc/CompletableFutures$FutureCancelChecker
+instanceKlass java/util/concurrent/ForkJoinTask$Aux
+instanceKlass org/eclipse/lsp4j/jsonrpc/CompletableFutures
+instanceKlass org/eclipse/lsp4j/Position
+instanceKlass org/eclipse/lsp4j/RelativePattern
+instanceKlass org/eclipse/lsp4j/DidChangeWatchedFilesRegistrationOptions
+instanceKlass org/eclipse/lsp4j/FileSystemWatcher
+instanceKlass org/eclipse/jdt/ls/core/internal/handlers/CompletionHandler$2
+instanceKlass org/eclipse/jdt/ls/core/internal/handlers/CompletionHandler$1
+instanceKlass org/eclipse/lsp4j/jsonrpc/RemoteEndpoint$PendingRequestInfo
+instanceKlass org/eclipse/lsp4j/Registration
+instanceKlass org/eclipse/core/internal/events/BuildManager$1
+instanceKlass org/eclipse/core/internal/events/BuildContext
+instanceKlass org/eclipse/core/internal/resources/Workspace$ProjectBuildConfigOrder
+instanceKlass org/eclipse/core/internal/resources/ComputeProjectOrder$VertexOrder
+instanceKlass org/eclipse/core/internal/resources/ComputeProjectOrder$Digraph$Vertex
+instanceKlass org/eclipse/core/internal/resources/ComputeProjectOrder$Digraph
+instanceKlass org/eclipse/core/internal/resources/ComputeProjectOrder
+instanceKlass org/eclipse/jdt/internal/core/DynamicProjectReferences
+instanceKlass org/eclipse/core/resources/IDynamicReferenceProvider
+instanceKlass org/eclipse/core/internal/resources/Workspace$BuildConfigurationComparator
+instanceKlass org/eclipse/lsp4j/FileOperationPatternOptions
+instanceKlass org/eclipse/lsp4j/FileOperationPattern
+instanceKlass org/eclipse/lsp4j/FileOperationFilter
+instanceKlass org/eclipse/lsp4j/FileOperationOptions
+instanceKlass org/eclipse/lsp4j/FileOperationsServerCapabilities
+instanceKlass org/eclipse/lsp4j/CompletionItemOptions
+instanceKlass org/eclipse/lsp4j/NotebookSelectorCell
+instanceKlass org/eclipse/lsp4j/NotebookDocumentFilter
+instanceKlass org/eclipse/lsp4j/NotebookSelector
+instanceKlass sun/nio/ch/WindowsAsynchronousFileChannelImpl$WriteTask
+instanceKlass com/google/gson/annotations/Expose
+instanceKlass org/eclipse/lsp4j/DocumentOnTypeFormattingOptions
+instanceKlass org/eclipse/lsp4j/AbstractWorkDoneProgressOptions
+instanceKlass org/eclipse/lsp4j/NotebookDocumentSyncRegistrationOptions
+instanceKlass org/eclipse/lsp4j/ServerInfo
+instanceKlass com/google/gson/internal/Streams
+instanceKlass java/util/concurrent/ForkJoinTask
+instanceKlass java/util/concurrent/CompletableFuture$AsynchronousCompletionTask
+instanceKlass java/util/concurrent/CompletableFuture$AltResult
+instanceKlass org/eclipse/jdt/core/dom/IBinding
+instanceKlass org/eclipse/lsp4j/SemanticTokensLegend
+instanceKlass org/eclipse/jdt/ls/core/internal/handlers/SemanticTokensHandler
+instanceKlass org/eclipse/lsp4j/DocumentFilter
+instanceKlass org/eclipse/lsp4j/SemanticTokensServerFull
+instanceKlass org/eclipse/lsp4j/TextDocumentRegistrationOptions
+instanceKlass org/eclipse/lsp4j/WorkDoneProgressOptions
+instanceKlass org/eclipse/lsp4j/WorkspaceFoldersOptions
+instanceKlass org/eclipse/lsp4j/WorkspaceServerCapabilities
+instanceKlass org/eclipse/lsp4j/SaveOptions
+instanceKlass org/eclipse/lsp4j/TextDocumentSyncOptions
+instanceKlass org/apache/commons/lang3/BooleanUtils
+instanceKlass org/eclipse/lsp4j/ServerCapabilities
+instanceKlass com/google/common/base/CommonPattern
+instanceKlass com/google/common/base/Platform$JdkPatternCompiler
+instanceKlass com/google/common/base/PatternCompiler
+instanceKlass com/google/common/base/Platform
+instanceKlass com/google/common/base/Strings
+instanceKlass org/eclipse/jdt/ls/core/internal/RuntimeEnvironment
+instanceKlass org/eclipse/jdt/internal/corext/util/TypeFilter
+instanceKlass com/google/common/base/Ascii
+instanceKlass com/google/common/base/Preconditions
+instanceKlass com/google/common/base/CharMatcher
+instanceKlass com/google/common/base/Predicate
+instanceKlass com/google/common/base/Converter
+instanceKlass com/google/common/base/Function
+instanceKlass org/eclipse/jdt/ls/core/internal/handlers/MapFlattener
+instanceKlass org/eclipse/jdt/ls/core/internal/preferences/ClientPreferences
+instanceKlass com/google/gson/internal/bind/ObjectTypeAdapter$2
+instanceKlass com/google/gson/internal/LinkedTreeMap$LinkedTreeMapIterator
+instanceKlass com/google/gson/internal/ConstructorConstructor$18
+instanceKlass org/eclipse/jdt/ls/core/internal/JSONUtility
+instanceKlass org/eclipse/jdt/ls/core/internal/handlers/BaseInitHandler
+instanceKlass com/google/gson/internal/LinkedTreeMap$Node
+instanceKlass com/google/gson/internal/LinkedTreeMap$1
+instanceKlass com/google/gson/internal/bind/TypeAdapters$42
+instanceKlass org/eclipse/lsp4j/jsonrpc/util/Preconditions
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/adapters/JsonElementTypeAdapter$Factory
+instanceKlass org/eclipse/lsp4j/StaleRequestCapabilities
+instanceKlass org/eclipse/lsp4j/MarkdownCapabilities
+instanceKlass org/eclipse/lsp4j/RegularExpressionsCapabilities
+instanceKlass org/eclipse/lsp4j/WindowShowMessageRequestActionItemCapabilities
+instanceKlass org/eclipse/lsp4j/ShowDocumentCapabilities
+instanceKlass org/eclipse/lsp4j/WindowShowMessageRequestCapabilities
+instanceKlass org/eclipse/lsp4j/InlayHintResolveSupportCapabilities
+instanceKlass org/eclipse/lsp4j/SemanticTokensClientCapabilitiesRequestsFull
+instanceKlass org/eclipse/lsp4j/SemanticTokensClientCapabilitiesRequests
+instanceKlass org/eclipse/lsp4j/FoldingRangeSupportCapabilities
+instanceKlass org/eclipse/lsp4j/FoldingRangeKindSupportCapabilities
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/adapters/EitherTypeAdapter$EitherTypeArgument
+instanceKlass org/eclipse/lsp4j/DiagnosticsTagSupport
+instanceKlass org/eclipse/lsp4j/CodeActionKindCapabilities
+instanceKlass org/eclipse/lsp4j/CodeActionResolveSupportCapabilities
+instanceKlass org/eclipse/lsp4j/CodeActionLiteralSupportCapabilities
+instanceKlass org/eclipse/lsp4j/ParameterInformationCapabilities
+instanceKlass org/eclipse/lsp4j/SignatureInformationCapabilities
+instanceKlass org/eclipse/lsp4j/CompletionItemInsertTextModeSupportCapabilities
+instanceKlass org/eclipse/lsp4j/CompletionItemResolveSupportCapabilities
+instanceKlass org/eclipse/lsp4j/CompletionItemTagSupportCapabilities
+instanceKlass org/eclipse/lsp4j/CompletionListCapabilities
+instanceKlass org/eclipse/lsp4j/CompletionItemKindCapabilities
+instanceKlass org/eclipse/lsp4j/CompletionItemCapabilities
+instanceKlass org/eclipse/lsp4j/PublishDiagnosticsCapabilities
+instanceKlass org/eclipse/lsp4j/WorkspaceSymbolResolveSupportCapabilities
+instanceKlass org/eclipse/lsp4j/SymbolTagSupportCapabilities
+instanceKlass org/eclipse/lsp4j/SymbolKindCapabilities
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/adapters/TypeUtils$ParameterizedTypeImpl
+instanceKlass org/eclipse/lsp4j/WorkspaceEditChangeAnnotationSupportCapabilities
+instanceKlass org/eclipse/lsp4j/DiagnosticWorkspaceCapabilities
+instanceKlass org/eclipse/lsp4j/InlineValueWorkspaceCapabilities
+instanceKlass org/eclipse/lsp4j/InlayHintWorkspaceCapabilities
+instanceKlass org/eclipse/lsp4j/CodeLensWorkspaceCapabilities
+instanceKlass org/eclipse/lsp4j/SemanticTokensWorkspaceCapabilities
+instanceKlass org/eclipse/lsp4j/DynamicRegistrationCapabilities
+instanceKlass org/eclipse/lsp4j/WorkspaceEditCapabilities
+instanceKlass org/eclipse/lsp4j/GeneralClientCapabilities
+instanceKlass org/eclipse/lsp4j/NotebookDocumentClientCapabilities
+instanceKlass org/eclipse/lsp4j/WindowClientCapabilities
+instanceKlass org/eclipse/lsp4j/TextDocumentClientCapabilities
+instanceKlass org/eclipse/lsp4j/WorkspaceClientCapabilities
+instanceKlass org/eclipse/lsp4j/ClientCapabilities
+instanceKlass com/google/gson/internal/bind/ReflectiveTypeAdapterFactory$FieldsData
+instanceKlass com/google/gson/internal/Primitives
+instanceKlass org/eclipse/lsp4j/jsonrpc/validation/NonNull
+instanceKlass com/google/gson/annotations/SerializedName
+instanceKlass org/eclipse/lsp4j/ClientInfo
+instanceKlass com/google/gson/internal/ConstructorConstructor$9
+instanceKlass com/google/gson/internal/ReflectionAccessFilterHelper
+instanceKlass org/eclipse/lsp4j/adapters/InitializeParamsTypeAdapter$Factory
+instanceKlass com/google/gson/annotations/JsonAdapter
+instanceKlass org/eclipse/lsp4j/jsonrpc/messages/Tuple$Two
+instanceKlass org/eclipse/lsp4j/jsonrpc/messages/Tuple
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/adapters/TypeUtils
+instanceKlass com/google/gson/internal/reflect/ReflectionHelper$RecordHelper
+instanceKlass com/google/gson/internal/reflect/ReflectionHelper
+instanceKlass com/google/gson/internal/JsonReaderInternalAccess
+instanceKlass org/eclipse/equinox/internal/app/EclipseAppHandle$1
+instanceKlass org/eclipse/equinox/internal/app/EclipseAppHandle$2
+instanceKlass java/time/LocalTime$1
+instanceKlass java/time/format/Parsed
+instanceKlass java/time/format/DateTimeParseContext
+instanceKlass org/eclipse/jdt/ls/core/internal/LogReader$LogEntry
+instanceKlass org/eclipse/jdt/ls/core/internal/LogReader$LogSession
+instanceKlass sun/util/locale/provider/CalendarNameProviderImpl$LengthBasedComparator
+instanceKlass sun/nio/ch/WindowsAsynchronousFileChannelImpl$ReadTask
+instanceKlass sun/nio/ch/Iocp$ResultHandler
+instanceKlass sun/nio/ch/PendingFuture
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/StreamMessageProducer$Headers
+instanceKlass sun/util/locale/provider/CalendarDataUtility$CalendarFieldValueNamesMapGetter
+instanceKlass java/text/CalendarBuilder
+instanceKlass java/text/ParsePosition
+instanceKlass org/eclipse/jdt/ls/core/internal/LogReader
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/ConcurrentMessageProcessor$1
+instanceKlass org/eclipse/jdt/ls/core/internal/handlers/WorkspaceEventsHandler
+instanceKlass org/eclipse/lsp4j/jsonrpc/StandardLauncher
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/ConcurrentMessageProcessor
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/StreamMessageProducer
+instanceKlass org/eclipse/lsp4j/jsonrpc/services/EndpointProxy
+instanceKlass org/eclipse/lsp4j/jsonrpc/messages/ResponseError
+instanceKlass org/eclipse/lsp4j/jsonrpc/RemoteEndpoint
+instanceKlass org/eclipse/lsp4j/jsonrpc/services/GenericEndpoint
+instanceKlass org/eclipse/lsp4j/jsonrpc/messages/Message
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/StreamMessageConsumer
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/MessageConstants
+instanceKlass com/google/gson/internal/bind/ReflectiveTypeAdapterFactory$BoundField
+instanceKlass com/google/gson/internal/bind/ReflectiveTypeAdapterFactory
+instanceKlass com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory$DummyTypeAdapterFactory
+instanceKlass com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory
+instanceKlass com/google/gson/internal/bind/MapTypeAdapterFactory
+instanceKlass com/google/gson/internal/bind/CollectionTypeAdapterFactory
+instanceKlass com/google/gson/internal/bind/ArrayTypeAdapter$1
+instanceKlass com/google/gson/internal/bind/DefaultDateTypeAdapter$1
+instanceKlass java/util/concurrent/atomic/AtomicLongArray
+instanceKlass com/google/gson/internal/bind/NumberTypeAdapter$1
+instanceKlass com/google/gson/internal/bind/ObjectTypeAdapter$1
+instanceKlass com/google/gson/internal/bind/TypeAdapters$29
+instanceKlass com/google/gson/internal/bind/TypeAdapters$33
+instanceKlass java/util/Currency
+instanceKlass com/google/gson/internal/bind/TypeAdapters$34
+instanceKlass java/util/concurrent/atomic/AtomicIntegerArray
+instanceKlass com/google/gson/internal/bind/TypeAdapters$32
+instanceKlass com/google/gson/internal/bind/TypeAdapters$31
+instanceKlass com/google/gson/internal/bind/TypeAdapters
+instanceKlass com/google/gson/internal/ObjectConstructor
+instanceKlass com/google/gson/internal/ConstructorConstructor
+instanceKlass com/google/gson/internal/sql/SqlTimestampTypeAdapter$1
+instanceKlass com/google/gson/internal/sql/SqlTimeTypeAdapter$1
+instanceKlass com/google/gson/internal/sql/SqlDateTypeAdapter$1
+instanceKlass com/google/gson/internal/bind/DefaultDateTypeAdapter$DateType
+instanceKlass com/google/gson/internal/sql/SqlTypesSupport
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/adapters/MessageTypeAdapter$Factory
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/adapters/EnumTypeAdapter$Factory
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/adapters/TupleTypeAdapters$TwoTypeAdapterFactory
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/adapters/EitherTypeAdapter$Factory
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/adapters/ThrowableTypeAdapter$Factory
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/adapters/CollectionTypeAdapter$Factory
+instanceKlass org/eclipse/core/internal/content/ContentTypeHandler
+instanceKlass org/eclipse/core/internal/content/ContentTypeManager$DebuggingHolder
+instanceKlass org/eclipse/core/runtime/preferences/IPreferenceNodeVisitor
+instanceKlass org/eclipse/core/internal/content/FileSpec
+instanceKlass org/eclipse/core/internal/content/ContentType
+instanceKlass org/eclipse/core/internal/content/Util
+instanceKlass org/eclipse/jdt/internal/core/index/Index
+instanceKlass com/google/gson/FormattingStyle
+instanceKlass com/google/gson/ToNumberStrategy
+instanceKlass com/google/gson/stream/JsonReader
+instanceKlass sun/nio/cs/ThreadLocalCoders$Cache
+instanceKlass sun/nio/cs/ThreadLocalCoders
+instanceKlass com/google/gson/stream/JsonWriter
+instanceKlass com/google/gson/Gson
+instanceKlass com/google/gson/internal/Excluder
+instanceKlass com/google/gson/FieldNamingStrategy
+instanceKlass com/google/gson/GsonBuilder
+instanceKlass org/eclipse/lsp4j/jsonrpc/messages/CancelParams
+instanceKlass org/eclipse/jdt/internal/compiler/lookup/IQualifiedTypeResolutionListener
+instanceKlass org/eclipse/jdt/internal/compiler/env/IBinaryType
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/MessageJsonHandler
+instanceKlass org/eclipse/jdt/core/dom/ASTRequestor
+instanceKlass org/eclipse/jdt/core/dom/IDocElement
+instanceKlass org/eclipse/jdt/core/search/SearchMatch
+instanceKlass org/eclipse/jdt/internal/core/search/matching/MatchLocator
+instanceKlass org/eclipse/lsp4j/DidOpenNotebookDocumentParams
+instanceKlass org/eclipse/lsp4j/DidCloseNotebookDocumentParams
+instanceKlass org/eclipse/lsp4j/DidSaveNotebookDocumentParams
+instanceKlass org/eclipse/lsp4j/DidChangeNotebookDocumentParams
+instanceKlass org/eclipse/jdt/ls/core/internal/handlers/NavigateToDefinitionHandler
+instanceKlass org/eclipse/jdt/internal/core/search/IndexSelector
+instanceKlass org/eclipse/jdt/ls/core/internal/handlers/DocumentSymbolHandler
+instanceKlass org/eclipse/jdt/ls/core/internal/handlers/NavigateToTypeDefinitionHandler
+instanceKlass org/eclipse/jdt/core/search/SearchDocument
+instanceKlass org/eclipse/jdt/ls/core/internal/handlers/CompletionHandler
+instanceKlass org/eclipse/jdt/internal/core/search/PatternSearchJob
+instanceKlass org/eclipse/jdt/internal/core/search/matching/TypeDeclarationPattern$PackageNameSet
+instanceKlass org/eclipse/jdt/ls/core/internal/handlers/HoverHandler
+instanceKlass org/eclipse/jdt/ls/core/internal/handlers/CompletionResolveHandler
+instanceKlass org/eclipse/lsp4j/TextDocumentIdentifier
+instanceKlass org/eclipse/lsp4j/WorkspaceDiagnosticReport
+instanceKlass org/eclipse/lsp4j/adapters/WorkspaceSymbolResponseAdapter
+instanceKlass org/eclipse/lsp4j/WorkspaceSymbol
+instanceKlass org/eclipse/lsp4j/DidChangeWatchedFilesParams
+instanceKlass org/eclipse/lsp4j/DidChangeWorkspaceFoldersParams
+instanceKlass org/eclipse/lsp4j/DidChangeConfigurationParams
+instanceKlass org/eclipse/lsp4j/CreateFilesParams
+instanceKlass org/eclipse/lsp4j/RenameFilesParams
+instanceKlass org/eclipse/lsp4j/DeleteFilesParams
+instanceKlass org/eclipse/jdt/internal/core/search/TypeNameRequestorWrapper
+instanceKlass org/eclipse/jdt/internal/core/search/AbstractSearchScope
+instanceKlass org/eclipse/lsp4j/LinkedEditingRanges
+instanceKlass org/eclipse/lsp4j/Hover
+instanceKlass org/eclipse/lsp4j/DocumentSymbol
+instanceKlass org/eclipse/lsp4j/SymbolInformation
+instanceKlass org/eclipse/jdt/core/search/ISearchPattern
+instanceKlass org/eclipse/jdt/internal/core/search/IRestrictedAccessMethodRequestor
+instanceKlass org/eclipse/lsp4j/adapters/DocumentSymbolResponseAdapter
+instanceKlass org/eclipse/jdt/core/search/SearchEngine
+instanceKlass org/eclipse/lsp4j/SelectionRange
+instanceKlass org/eclipse/lsp4j/FoldingRange
+instanceKlass org/eclipse/lsp4j/SignatureHelp
+instanceKlass org/eclipse/lsp4j/Command
+instanceKlass org/eclipse/lsp4j/adapters/CodeActionResponseAdapter
+instanceKlass org/eclipse/lsp4j/SemanticTokensDelta
+instanceKlass org/eclipse/lsp4j/SemanticTokens
+instanceKlass org/eclipse/lsp4j/adapters/SemanticTokensFullDeltaResponseAdapter
+instanceKlass org/eclipse/lsp4j/CallHierarchyOutgoingCall
+instanceKlass org/eclipse/lsp4j/CallHierarchyIncomingCall
+instanceKlass org/eclipse/lsp4j/CallHierarchyItem
+instanceKlass org/eclipse/lsp4j/TypeHierarchyItem
+instanceKlass org/eclipse/lsp4j/adapters/DocumentDiagnosticReportTypeAdapter
+instanceKlass org/eclipse/lsp4j/Moniker
+instanceKlass org/eclipse/lsp4j/InlineValueEvaluatableExpression
+instanceKlass org/eclipse/jdt/internal/launching/JREContainer$1
+instanceKlass org/eclipse/lsp4j/InlineValueVariableLookup
+instanceKlass org/eclipse/lsp4j/InlineValueText
+instanceKlass org/eclipse/jdt/internal/launching/JREContainer
+instanceKlass org/eclipse/lsp4j/adapters/InlineValueResponseAdapter
+instanceKlass org/eclipse/lsp4j/ColorInformation
+instanceKlass org/eclipse/lsp4j/PrepareRenameDefaultBehavior
+instanceKlass org/eclipse/lsp4j/PrepareRenameResult
+instanceKlass org/eclipse/lsp4j/Range
+instanceKlass org/eclipse/jdt/launching/IVMRunner
+instanceKlass org/eclipse/lsp4j/adapters/PrepareRenameResponseAdapter
+instanceKlass org/eclipse/lsp4j/TextEdit
+instanceKlass org/eclipse/jdt/internal/launching/CompositeId
+instanceKlass org/eclipse/lsp4j/ColorPresentation
+instanceKlass org/eclipse/lsp4j/CompletionList
+instanceKlass org/eclipse/lsp4j/LocationLink
+instanceKlass org/eclipse/lsp4j/Location
+instanceKlass com/google/gson/internal/$Gson$Types$WildcardTypeImpl
+instanceKlass com/google/gson/internal/$Gson$Preconditions
+instanceKlass com/google/gson/internal/$Gson$Types$ParameterizedTypeImpl
+instanceKlass com/google/gson/internal/$Gson$Types
+instanceKlass com/google/gson/TypeAdapter
+instanceKlass com/google/gson/reflect/TypeToken
+instanceKlass org/eclipse/jdt/ls/core/internal/javafx/FXLibraryLocationResolver
+instanceKlass org/eclipse/jdt/internal/launching/JavaFxLibraryResolver
+instanceKlass org/eclipse/jdt/launching/ILibraryLocationResolver
+instanceKlass java/lang/reflect/WildcardType
+instanceKlass org/eclipse/lsp4j/jsonrpc/messages/Either
+instanceKlass sun/reflect/generics/tree/Wildcard
+instanceKlass sun/reflect/generics/tree/BottomSignature
+instanceKlass org/eclipse/lsp4j/adapters/LocationLinkListAdapter
+instanceKlass com/google/gson/TypeAdapterFactory
+instanceKlass org/eclipse/lsp4j/WorkspaceEdit
+instanceKlass org/eclipse/lsp4j/DocumentRangeFormattingParams
+instanceKlass org/eclipse/lsp4j/DidOpenTextDocumentParams
+instanceKlass org/eclipse/lsp4j/DocumentFormattingParams
+instanceKlass org/eclipse/lsp4j/DidCloseTextDocumentParams
+instanceKlass org/eclipse/lsp4j/DidSaveTextDocumentParams
+instanceKlass org/eclipse/lsp4j/DidChangeTextDocumentParams
+instanceKlass org/eclipse/lsp4j/CodeLens
+instanceKlass org/eclipse/lsp4j/CodeAction
+instanceKlass org/eclipse/lsp4j/DocumentLink
+instanceKlass org/eclipse/lsp4j/CompletionItem
+instanceKlass org/eclipse/lsp4j/InlayHintParams
+instanceKlass org/eclipse/lsp4j/InlineValueParams
+instanceKlass org/eclipse/lsp4j/InlayHint
+instanceKlass org/eclipse/jdt/launching/LibraryLocation
+instanceKlass org/eclipse/lsp4j/WillSaveTextDocumentParams
+instanceKlass org/eclipse/jdt/internal/launching/LibraryInfo
+instanceKlass org/eclipse/lsp4j/WorkDoneProgressAndPartialResultParams
+instanceKlass org/eclipse/lsp4j/InitializeResult
+instanceKlass org/eclipse/lsp4j/InitializeParams
+instanceKlass org/eclipse/lsp4j/InitializedParams
+instanceKlass org/eclipse/lsp4j/SetTraceParams
+instanceKlass org/eclipse/lsp4j/WorkDoneProgressCancelParams
+instanceKlass org/eclipse/lsp4j/services/NotebookDocumentService
+instanceKlass org/eclipse/lsp4j/jsonrpc/CancelChecker
+instanceKlass org/eclipse/jdt/ls/core/internal/JavaClientConnection
+instanceKlass jdk/internal/vm/annotation/IntrinsicCandidate
+instanceKlass java/lang/Deprecated
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/JsonRpcMethodProvider
+instanceKlass org/eclipse/lsp4j/jsonrpc/services/JsonDelegate
+instanceKlass org/eclipse/jdt/ls/core/internal/ActionableNotification
+instanceKlass org/eclipse/jdt/ls/core/internal/EventNotification
+instanceKlass org/eclipse/jdt/ls/core/internal/StatusReport
+instanceKlass org/eclipse/jdt/ls/core/internal/ProgressReport
+instanceKlass org/eclipse/lsp4j/ExecuteCommandParams
+instanceKlass org/eclipse/lsp4j/ShowDocumentResult
+instanceKlass org/eclipse/lsp4j/WorkspaceFolder
+instanceKlass org/eclipse/jdt/launching/AbstractVMInstall
+instanceKlass org/eclipse/jdt/launching/IVMInstall3
+instanceKlass org/eclipse/jdt/launching/IVMInstall2
+instanceKlass org/eclipse/lsp4j/MessageActionItem
+instanceKlass org/eclipse/lsp4j/jsonrpc/services/JsonNotification
+instanceKlass org/eclipse/lsp4j/ApplyWorkspaceEditResponse
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/JsonRpcMethod
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/ResponseJsonAdapter
+instanceKlass sun/reflect/generics/reflectiveObjects/LazyReflectiveObjectGenerator
+instanceKlass sun/reflect/generics/tree/TypeVariableSignature
+instanceKlass sun/reflect/generics/tree/ClassSignature
+instanceKlass org/eclipse/jdt/internal/launching/VMDefinitionsContainer
+instanceKlass sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl
+instanceKlass java/lang/reflect/ParameterizedType
+instanceKlass sun/reflect/generics/tree/MethodTypeSignature
+instanceKlass sun/reflect/generics/tree/Signature
+instanceKlass sun/reflect/generics/tree/FormalTypeParameter
+instanceKlass sun/reflect/generics/repository/AbstractRepository
+instanceKlass java/util/stream/Nodes$ArrayNode
+instanceKlass org/eclipse/jdt/launching/AbstractVMInstallType
+instanceKlass org/eclipse/jdt/launching/IVMInstallType
+instanceKlass org/eclipse/lsp4j/jsonrpc/services/JsonRequest
+instanceKlass org/eclipse/lsp4j/ConfigurationParams
+instanceKlass org/eclipse/lsp4j/PublishDiagnosticsParams
+instanceKlass org/eclipse/lsp4j/ProgressParams
+instanceKlass org/eclipse/lsp4j/ShowDocumentParams
+instanceKlass org/eclipse/lsp4j/WorkDoneProgressCreateParams
+instanceKlass org/eclipse/lsp4j/LogTraceParams
+instanceKlass org/eclipse/lsp4j/MessageParams
+instanceKlass org/eclipse/lsp4j/ApplyWorkspaceEditParams
+instanceKlass org/eclipse/lsp4j/RegistrationParams
+instanceKlass java/util/concurrent/CompletableFuture
+instanceKlass org/eclipse/debug/core/model/ISourceLocator
+instanceKlass org/eclipse/jdt/internal/launching/sourcelookup/advanced/AdvancedSourceLookupSupport
+instanceKlass org/eclipse/lsp4j/UnregistrationParams
+instanceKlass org/eclipse/debug/internal/core/groups/GroupMemberChangeListener
+instanceKlass org/eclipse/lsp4j/jsonrpc/services/JsonSegment
+instanceKlass org/eclipse/lsp4j/jsonrpc/services/AnnotationUtil
+instanceKlass org/eclipse/lsp4j/jsonrpc/services/AnnotationUtil$MethodInfo
+instanceKlass org/eclipse/core/internal/watson/ElementTreeIterator
+instanceKlass org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+instanceKlass org/eclipse/lsp4j/jsonrpc/MessageProducer
+instanceKlass org/eclipse/lsp4j/jsonrpc/MessageIssueHandler
+instanceKlass org/eclipse/lsp4j/jsonrpc/json/MethodProvider
+instanceKlass org/eclipse/lsp4j/jsonrpc/MessageConsumer
+instanceKlass org/eclipse/lsp4j/jsonrpc/Endpoint
+instanceKlass org/eclipse/lsp4j/jsonrpc/Launcher$Builder
+instanceKlass org/eclipse/core/internal/resources/ResourceProxy
+instanceKlass org/eclipse/lsp4j/jsonrpc/Launcher
+instanceKlass org/eclipse/jdt/ls/core/internal/JavaClientConnection$JavaLanguageClient
+instanceKlass org/eclipse/debug/internal/core/LaunchManager$ResourceProxyVisitor
+instanceKlass org/eclipse/jdt/ls/core/internal/lsp/ExecuteCommandProposedClient
+instanceKlass org/eclipse/lsp4j/services/LanguageClient
+instanceKlass org/eclipse/debug/core/ILaunchDelegate
+instanceKlass org/eclipse/core/resources/IResourceProxyVisitor
+instanceKlass org/eclipse/debug/core/ILaunchMode
+instanceKlass org/eclipse/debug/core/ILaunchConfiguration
+instanceKlass org/eclipse/jdt/launching/StandardClasspathProvider
+instanceKlass org/eclipse/jdt/launching/IRuntimeClasspathProvider
+instanceKlass org/eclipse/jdt/launching/environments/IExecutionEnvironmentsManager
+instanceKlass org/eclipse/jdt/launching/IRuntimeClasspathEntry
+instanceKlass org/eclipse/jdt/launching/IVMConnector
+instanceKlass org/eclipse/jdt/ls/core/internal/ParentProcessWatcher
+instanceKlass org/eclipse/jdt/launching/IRuntimeClasspathEntryResolver
+instanceKlass org/eclipse/jdt/launching/IVMInstall
+instanceKlass sun/nio/ch/Invoker$GroupAndInvokeCount
+instanceKlass sun/nio/ch/PendingIoCache
+instanceKlass sun/nio/ch/Invoker
+instanceKlass org/eclipse/jdt/launching/JavaRuntime
+instanceKlass sun/nio/ch/AsynchronousChannelGroupImpl$1
+instanceKlass sun/nio/ch/AsynchronousChannelGroupImpl$2
+instanceKlass sun/nio/ch/Iocp$EventHandlerTask
+instanceKlass sun/nio/ch/ThreadPool
+instanceKlass sun/nio/ch/Iocp$CompletionStatus
+instanceKlass java/nio/channels/AsynchronousChannelGroup
+instanceKlass sun/nio/ch/WindowsAsynchronousFileChannelImpl$DefaultIocpHolder
+instanceKlass sun/nio/ch/Groupable
+instanceKlass sun/nio/ch/Iocp$OverlappedChannel
+instanceKlass java/nio/channels/AsynchronousFileChannel
+instanceKlass java/net/ProtocolFamily
+instanceKlass org/eclipse/jdt/ls/core/internal/ConnectionStreamFactory$PipeStreamProvider
+instanceKlass org/eclipse/jdt/internal/launching/LaunchingPlugin$1$1
+instanceKlass java/lang/ProcessHandleImpl$Info
+instanceKlass java/lang/ProcessHandle$Info
+instanceKlass java/lang/ProcessHandleImpl
+instanceKlass org/eclipse/debug/core/model/IDebugElement
+instanceKlass java/lang/ProcessHandle
+instanceKlass org/eclipse/debug/core/ILaunch
+instanceKlass org/eclipse/debug/core/model/ISuspendResume
+instanceKlass org/eclipse/jdt/ls/core/internal/ConnectionStreamFactory$StreamProvider
+instanceKlass org/eclipse/debug/core/model/IStepFilters
+instanceKlass org/eclipse/debug/core/model/IStep
+instanceKlass org/eclipse/debug/core/model/IDropToFrame
+instanceKlass org/eclipse/jdt/ls/core/internal/ConnectionStreamFactory
+instanceKlass org/eclipse/jdt/core/manipulation/CoreASTProvider$WAIT_FLAG
+instanceKlass org/eclipse/debug/core/model/IDisconnect
+instanceKlass org/eclipse/jdt/core/manipulation/CoreASTProvider
+instanceKlass org/eclipse/jdt/ls/core/internal/MovingAverage
