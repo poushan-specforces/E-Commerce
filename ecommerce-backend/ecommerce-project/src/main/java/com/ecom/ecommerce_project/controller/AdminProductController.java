@@ -18,13 +18,14 @@ import com.ecom.ecommerce_project.exception.ProductException;
 import com.ecom.ecommerce_project.model.Product;
 import com.ecom.ecommerce_project.request.CreateProductRequest;
 import com.ecom.ecommerce_project.service.ProductService;
+import com.ecom.ecommerce_project.response.ApiResponse;
 
 @RestController
 @RequestMapping("/api/admin/products")
 public class AdminProductController {
 
     @Autowired
-    private ProductService productService;
+    private ProductService productService; 
 
     @PostMapping("/")
     public ResponseEntity<Product> createProduct(@RequestBody CreateProductRequest req) {
@@ -40,14 +41,14 @@ public class AdminProductController {
         productService.deleteProduct(productId);
         ApiResponse res = new ApiResponse();
         res.setMessage("product deleted successfully");
-        res.status(true);
+        res.setStatus(true);
 
         return new ResponseEntity<>(res, HttpStatus.OK);
     }
     
     @GetMapping("/all")
     public ResponseEntity<List<Product>> findAllProduct() {
-        List<Product> products = productService.findAllProducts();
+        List<Product> products = productService.getAllProducts();
 
         return new ResponseEntity<>(products, HttpStatus.OK);
     }

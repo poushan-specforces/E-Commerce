@@ -3,6 +3,8 @@ package com.ecom.ecommerce_project.service;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.ecom.ecommerce_project.exception.ProductException;
 import com.ecom.ecommerce_project.model.Product;
 import com.ecom.ecommerce_project.model.Rating;
@@ -10,6 +12,7 @@ import com.ecom.ecommerce_project.model.User;
 import com.ecom.ecommerce_project.repository.RatingRepository;
 import com.ecom.ecommerce_project.request.RatingRequest;
 
+@Service
 public class RatingServiceImplementation implements RatingService {
 
     private RatingRepository ratingRepository;

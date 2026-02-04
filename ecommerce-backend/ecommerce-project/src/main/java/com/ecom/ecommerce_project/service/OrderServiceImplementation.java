@@ -13,6 +13,8 @@ import com.ecom.ecommerce_project.repository.CartRepository;
 @Service
 public class OrderServiceImplementation implements OrderService {
     
+    
+
     private CartRepository cartRepository;
     private CartService cartItemService;
     private ProductService productService;
@@ -32,7 +34,7 @@ public class OrderServiceImplementation implements OrderService {
     }
 
     @Override
-    public List<Order> findOrderById(Long orderId) throws OrderException {
+    public Order findOrderById(Long orderId) throws OrderException {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'findOrderById'");
     }
@@ -65,6 +67,12 @@ public class OrderServiceImplementation implements OrderService {
     public Order canceledOrder(Long orderId) throws OrderException {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'canceledOrder'");
+    }
+
+    @Override
+    public List<Order> usersOrderHistory(Long userId) {
+        // TODO Auto-generated method stub
+        return null;
     }
 
     @Override

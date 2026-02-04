@@ -105,6 +105,11 @@ public class ProductServiceImplementation implements ProductService {
     }
 
     @Override
+    public List<Product> getAllProducts() {
+        return productRepository.findAll();
+    }
+
+    @Override
     public Product findProductById(Long id) throws ProductException {
         Optional<Product> opt = productRepository.findById(id);
 
@@ -119,6 +124,12 @@ public class ProductServiceImplementation implements ProductService {
     public List<Product> findProductByCategory(String Category) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'findProductByCategory'");
+    }
+
+    @Override
+    public List<Product> searchProduct(String query) {
+        List<Product> products = productRepository.searchProduct(query);
+        return products;
     }
 
     @Override

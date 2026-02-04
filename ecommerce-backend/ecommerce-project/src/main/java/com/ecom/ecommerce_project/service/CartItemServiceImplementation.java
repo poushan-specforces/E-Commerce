@@ -2,6 +2,8 @@ package com.ecom.ecommerce_project.service;
 
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
 import com.ecom.ecommerce_project.exception.CartItemException;
 import com.ecom.ecommerce_project.exception.UserException;
 import com.ecom.ecommerce_project.model.Cart;
@@ -11,17 +13,17 @@ import com.ecom.ecommerce_project.model.User;
 import com.ecom.ecommerce_project.repository.CartItemRepository;
 import com.ecom.ecommerce_project.repository.CartRepository;
 
+@Service
 public class CartItemServiceImplementation implements CartItemService {
 
     private CartItemRepository cartItemRepository;
     private UserService userService;
-    private CartRepository cartRepository;
+    // private CartRepository cartRepository;
 
-    public CartItemServiceImplementation(CartItemRepository cartItemRepository, UserService userService,
-            CartRepository cartRepository) {
+    public CartItemServiceImplementation(CartItemRepository cartItemRepository, UserService userService) {
         this.cartItemRepository = cartItemRepository;
         this.userService = userService;
-        this.cartRepository = cartRepository;
+        // this.cartRepository = cartRepository;
     }
 
     @Override

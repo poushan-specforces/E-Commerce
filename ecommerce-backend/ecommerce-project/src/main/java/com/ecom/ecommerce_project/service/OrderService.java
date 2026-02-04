@@ -10,7 +10,9 @@ import com.ecom.ecommerce_project.model.User;
 public interface OrderService {
     public Order createOrder(User user, Address shippingAddress);
 
-    public List<Order> findOrderById(Long orderId) throws OrderException;
+    public Order findOrderById(Long orderId) throws OrderException;
+
+    public List<Order> usersOrderHistory(Long userId);
 
     public Order placedOrder(Long orderId) throws OrderException;
 
